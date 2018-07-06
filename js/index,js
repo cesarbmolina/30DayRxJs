@@ -1,4 +1,5 @@
 // Day 1
-var button = document.querySelector('button');
+var button = document.getElementById('rxjsButton');
+
 Rx.Observable.fromEvent(button, 'click')
 .subscribe(() => console.log('Clicked RxJS!'));
